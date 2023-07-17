@@ -22,7 +22,7 @@ Interesting behavior can be seen if a command is executed **twice** with the sam
 
 `bitflipper ./image2.bmp -n 10000 -s 1234`
 
-On the first execution the file is going to get partially or fully corrupted, but on the second corruption the file is going to return to it's initial state, since the bits flipped are going to be exactly the same. 
+On the first execution the file is going to get partially or fully corrupted, but on the second run the file is going to return to it's initial state, since the bits flipped are going to be exactly the same as before. 
 
 This essentially encrypts the file. To decrypt it you need to know the number of bits flipped and the seed used to generate the sequence of bits to flip.
 
