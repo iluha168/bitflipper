@@ -9,7 +9,7 @@ Compile `main.c` and execute in your preffered system with arguments listed belo
 ### Arguments
 - `-n <number>` set amount of bits to flip in a file. **0 if not provided.**
 - `-s <number>` sets the seed for random generator. Random generator is responsible for picking the bits to flip. 0 if not provided.
-- `-stime` or `-s time` sets the seed from current system time
+- `-s time` sets the seed from current system time
 - `-h` shows the help message
 - `-v` enables verbose mode
 
