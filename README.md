@@ -25,7 +25,7 @@ Interesting behavior can be seen if a command is executed **twice** with the sam
 
 `bitflipper ./image2.bmp -n 10000 -s 1234`
 
-On the first execution the file is going to get partially or fully corrupted, but on the second run the file is going to return to it's initial state, since the bits flipped are going to be exactly the same as before. This essentially decrypts the file.
+On the first execution the file is going to get partially or fully corrupted, but on the second run the file is going to return to it's initial state, since the bits flipped are going to be exactly the same as before. This essentially decrypts the file. Note that this may not work across different operating sytems due to different `rand()` implementations.
 
 `bitflipper --skip 54 ./image3.bmp -vn1000000 -stime --ram`
 
