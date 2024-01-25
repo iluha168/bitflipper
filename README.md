@@ -3,7 +3,7 @@
 This command-line utility flips (turns 1 into 0 and vice versa) a specified amount of randomly chosen bits in any file.
 
 ## Installation
-Compile `main.c` and execute in your preffered system with arguments listed below
+Compile `main.c`.
 
 ## Usage
 ### Arguments
